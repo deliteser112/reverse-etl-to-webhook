@@ -1,0 +1,15 @@
+{
+  "name": "product-eng-tha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-customer-db": "node scripts/start-customer-db.js",
+    "stop-customer-db": " docker-compose down customer-postgres",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
