@@ -43,7 +43,7 @@ We provide a project template that includes a Docker Compose setup with a seeded
 
 ## Time Expectation
 
-We're respectful of your time. Aim for ~3 hours — we've scoped this assignment accordingly and do not expect more. We value pragmatic trade-offs over polish.
+We're respectful of your time. Aim to complete between 3-6 hours — we've scoped this assignment accordingly and do not expect more. We value pragmatic trade-offs over polish.
 
 ## What We're Looking For
 
