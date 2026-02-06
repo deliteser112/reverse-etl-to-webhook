@@ -26,14 +26,12 @@ const Preview: React.FC<PreviewProps> = ({
   const handlePreview = async () => {
     setLoading(true);
     try {
-      console.log("connectionString", connectionString, table, limit, mappings);
       const response = await previewRows(
         connectionString,
         table,
         limit,
         mappings,
       );
-      console.log("response", response);
       setPreviewData(response.data.preview);
     } catch (error) {
       console.error(error);

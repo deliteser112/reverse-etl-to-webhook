@@ -88,7 +88,7 @@ apiRouter.post("/preview", async (req, res) => {
       if (!rule.column || !rule.path) {
         return res.status(400).json({ error: "Each mapping item must have column and path" });
       }
-      // keep this permissive; frontend can validate more, i think this would be TODO
+      // keep this permissive; frontend can validate more, i think this would be TODO if i have more time
       if (rule.path.includes("..")) {
         return res.status(400).json({ error: "Invalid path" });
       }

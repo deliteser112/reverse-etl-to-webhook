@@ -1,28 +1,27 @@
 import { createTheme } from '@mui/material/styles';
 
-// Customize MUI's default theme
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // Blue shade for the primary color
+      main: '#1976d2',
     },
     secondary: {
-      main: '#f50057', // Pink shade for the secondary color
+      main: '#f50057',
     },
     background: {
-      default: '#fafafa', // Light gray background for the app
+      default: '#fafafa',
     },
   },
   typography: {
-    fontFamily: 'Roboto, sans-serif', // Default font
+    fontFamily: 'Roboto, sans-serif',
     h6: {
-      fontWeight: 600, // Make headings bold
+      fontWeight: 600,
     },
     button: {
-      textTransform: 'none', // Disable uppercase transformation for buttons
+      textTransform: 'none',
     },
   },
-  spacing: 8, // Set spacing unit for consistent margin/padding
+  spacing: 8,
 });
 
 export default theme;
